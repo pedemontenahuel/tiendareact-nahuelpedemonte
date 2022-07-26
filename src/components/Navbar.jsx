@@ -85,7 +85,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    transition: all .4s ease;
+    transition: all .4s ease ;
     a{
         color: whitesmoke;
         font-size: 2rem;
@@ -152,7 +152,7 @@ left: -1000px;
 width: 100%;
 height: 100%;
 z-index: -1;
-transition: all 0.6s ease ;
+transition: all 0.6s ease z-index ease-in;
 
 
 &.active{
